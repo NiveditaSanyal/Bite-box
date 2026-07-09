@@ -1,0 +1,63 @@
+/* #container{
+    height: 350px;
+    width: 350px;
+    border: 2px solid black;
+    padding: 30px;
+    text-align: center;
+}
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+     border: 2px solid black;
+}
+.new{
+    height: 50px;
+    width: 50px;
+    color: white;
+    background-color: red;
+    border-bottom-left-radius: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    position: relative;
+    top: 0%;
+    right: 0%;
+} */
+/*  
+body{
+    background-image: url("https://pbs.twimg.com/profile_images/1214454249796456449/8YgM8YE9_400x400.jpg");
+    background-repeat: no-repeat;
+    background-size: content;
+    background-position: center;
+}*/
+/* 
+.display_container{
+    height: 350px;
+     border: 2px solid black; 
+    display: grid;
+    grid-template-columns: auto auto auto; 
+    gap: 40px; 
+    justify-content: center;
+    align-content: center;  
+} 
+.box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+
+  
+} */
+
+.felx_container{
+    display: flex;
+    /* flex-direction: column-reverse; */
+    /* flex-wrap: wrap-reverse; */
+    /* justify-content: flex-end; */
+        justify-content: space-evenly;
+}
+.box{ 
+
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
