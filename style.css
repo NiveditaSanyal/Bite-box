@@ -2,12 +2,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 nav{
     padding:20px;
     background-color: black;
     color: white;
-    height: 60px;
+    height: 100px;
 }
 nav div{
     display: flex;
