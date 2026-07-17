@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Yuyu&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Cart page</h1>
+    <!-- <h1>Cart page</h1> -->
     <!-- Header Section -->
     <header>
         <nav>
@@ -31,5 +31,46 @@
         </nav>
     </header>
     <!-- Header Section complete -->
+
+    <!-- Cart Section -->
+     <section class="cart"><br> <br>
+        <table>
+            <thead>
+                <th>Item</th>
+                <th>Price</th>
+                <th>Qty</th>
+                <th>Total</th>
+                <th>Remove</th>
+            </thead>
+          <tbody >
+                <tr>
+                    <td class="item">
+                        <img src="/images/burger.jpg" alt="">
+                        <div>
+                            <h4>Cheesy Burger</h4>
+                            <p>Juicy Grilled Burger</p>
+                        </div>
+                    </td>
+                    <td>₹ 199</td>
+                    <td>
+                        <div class="qty-box">
+                            <button>-</button>
+                            <span>1</span>
+                            <button>+</button>
+                        </div>
+                    </td>
+                    <td>₹ 199</td>
+                    <td>
+                        <button class="remove">X</button>
+                    </td>
+                </tr>
+                <tr class="grand-total">
+                    <td colspan="3">Grand-Total</td>
+                    <td>₹ 199</td>
+                    <td><button>Proceed</button></td>
+                </tr>
+            </tbody>
+        </table>
+     </section>
 </body>
 </html>

@@ -3,16 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Signup </title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/63b647e21e.js" crossorigin="anonymous"></script>
 
     <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Yuyu&display=swap" rel="stylesheet">
-
 </head>
 <body>
-    <!-- <h1>login page</h1> -->
      <!-- Start Header Section -->
          <header>
         <nav>
@@ -31,21 +29,23 @@
             </div>
         </nav>
     </header>
-     <!-- End Header Section -->
-    <!--STart Authentication Section  -->
+    <!-- End Header Section -->
+    <!-- Start Authentication Section -->
     <section class="auth-container">
         <div class="auth-box">
-            <h2>Login to Bite <span>Box</span></h2>
+            <h2>Create account</h2>
+
             <form>
+                <input type="text" placeholder="Full Name" required>
                 <input type="email" placeholder="Enter Email" required>
-                <input type="password" placeholder="Enter :Password" required>
+                <input type="password" placeholder="Password" required>
+                <input type="password" placeholder=" Conformed Password" required>
 
-                <button type="submit">Login</button>
+                <button type="submit">Signup</button>
             </form>
-            <p><a href="signup.html">Forgot Password</a></p>
-            <p>Don't have an account <a href="signup.html">Sign Up</a></p>
+            <p>Already have an account <a href="login.html">Login</a></p>
         </div>
-
     </section>
+    <!-- End Authentication Section -->
 </body>
 </html>
